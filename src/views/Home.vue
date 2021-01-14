@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul>
-      <li>🗲 30 minutes presentation of top 10 features I like</li>
+      <li>🗲 30 minutes presentation of my Top 10 features</li>
       <li>
         🗲 <a href="https://github.com/janmichek/storm-session">
            https://github.com/janmichek/storm-session
