@@ -1,29 +1,9 @@
 <template>
-  <div class="history">
-    It suck when it
+  <div>
+   <ul>
+     <li>🗲 ... the whole thing accidentally ...</li>
+     <li>🗲 keeps local history of code</li>
+     <li>🗲 keeps local history of tree</li>
+   </ul>
   </div>
 </template>
-
-<script>
-  export default {
-    name: 'History',
-    props: {
-      propName: {
-        type: Boolean,
-        required: true,
-      },
-    },
-    data () {
-      return {
-        valueName: '',
-      }
-    },
-  }
-</script>
-
-
-<style scoped>
-  .history {
-
-  }
-</style>

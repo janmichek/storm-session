@@ -1,12 +1,21 @@
 <template>
-  <div class="search-bar">
+  <div>
+    <ul>
+      <li>There is no such thing as over-componentization</li>
+      <li>Its painful to split big file into components</li>
+      <li>This feature will do manual work</li>
+    </ul>
 
-    <div class="search-input">
-      <input v-model="searchString" type="text">
-    </div>
+    <div class="search-bar">
 
-    <div class="search-button">
-      <button @click="search()">search it</button>
+      <div class="search-input">
+        <input v-model="searchString" type="text">
+      </div>
+
+      <div class="search-button">
+        <button @click="search()">search it</button>
+      </div>
+
     </div>
 
   </div>
@@ -16,9 +25,9 @@
   export default {
     name: 'ExtractVueComponent',
     methods: {
-      search() {
+      search () {
         return
-      }
+      },
     },
     data () {
       return {
@@ -33,6 +42,7 @@
     display: flex;
     flex-direction: row;
   }
+
   .search-input {
     height: 20px;
   }

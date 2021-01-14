@@ -1,38 +1,11 @@
 <template>
-  <div class="plugins">
-
+  <div>
     <ul>
-      <li>Rainbow Brackets</li>
+      <li>🗲 Rainbow Brackets</li>
+      <li>🗲 Git Toolbox</li>
+      <li>🗲 IntelliVue</li>
+      <li>🗲 Material Theme </li>
+      <li>🗲 Codota ???</li>
     </ul>
-    <ul>
-      <li>Toolbox</li>
-    </ul>
-    <ul>
-      <li>vue </li>
-    </ul>
-
   </div>
 </template>
-
-<script>
-  export default {
-    name: 'Plugins',
-    props: {
-      propName: {
-        type: Boolean,
-        required: true,
-      },
-    },
-    data () {
-      return {
-        valueName: '',
-      }
-    },
-  }
-</script>
-
-<style scoped>
-  .plugins {
-
-  }
-</style>

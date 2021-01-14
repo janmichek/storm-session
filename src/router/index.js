@@ -5,11 +5,13 @@ import AutoImport from '../views/AutoImport.vue'
 import Extract from '../views/ExtractVueComponent.vue'
 import History from '../views/History.vue'
 import Todo from '../views/InAppTodo.vue'
-import Intro from '../views/Intro.vue'
+import Workplace from '../views/Workplace.vue'
 import KeyStrokes from '../views/KeyStrokes.vue'
-import Layout from '../views/Layout.vue'
+import Columns from '../views/Columns.vue'
+import Folding from '../views/Folding.vue'
 import NewFileTemplate from '../views/NewFileTemplate.vue'
 import Plugins from '../views/Plugins.vue'
+import Catgif from '../views/Catgif.vue'
 
 Vue.use(VueRouter)
 
@@ -30,7 +32,7 @@ const routes = [
     component: Extract
   },
   {
-    path: '/hitory',
+    path: '/history',
     name: 'History',
     component: History
   },
@@ -40,9 +42,9 @@ const routes = [
     component: Todo
   },
   {
-    path: '/intro',
-    name: 'Intro',
-    component: Intro
+    path: '/workplace',
+    name: 'Workplace',
+    component: Workplace
   },
   {
     path: '/keystrokes',
@@ -50,19 +52,29 @@ const routes = [
     component: KeyStrokes
   },
   {
-    path: '/layout',
-    name: 'Layout',
-    component: Layout
+    path: '/columns',
+    name: 'Columns',
+    component: Columns
   },
   {
-    path: '/NewFileTemplate',
+    path: '/newFileTemplate',
     name: 'NewFileTemplate',
     component: NewFileTemplate
+  },
+  {
+    path: '/folding',
+    name: 'Folding',
+    component: Folding,
   },
   {
     path: '/Plugins',
     name: 'Plugins',
     component: Plugins
+  },
+  {
+    path: '/catgif',
+    name: 'catgif',
+    component: Catgif
   },
 ]
 

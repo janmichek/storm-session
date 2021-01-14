@@ -1,36 +1,19 @@
 <template>
-  <div class="key-strokes">
+  <div>
     <ul>
       <li>
-        CTRL + SHIFT + L
+        🗲 <code>CTRL + SHIFT + L</code> - Fix Eslint Problems
       </li>
       <li>
-        Mouse 4 + Mouse 5
+        🗲 <code>CTRL + SHIFT + T</code> - Reopen closed Tab
       </li>
-      <li>CTRL + Scroll</li>
+      <li>
+        🗲 <code>
+        Mouse 4 + Mouse 5
+      </code>
+        - Undo / Redo
+      </li>
+      <li>🗲 <code>CTRL + Scroll</code> - Zoom</li>
     </ul>
   </div>
 </template>
-
-<script>
-  export default {
-    name: 'KeyStrokes',
-    props: {
-      propName: {
-        type: Boolean,
-        required: true,
-      },
-    },
-    data () {
-      return {
-        valueName: '',
-      }
-    },
-  }
-</script>
-
-<style scoped>
-  .key-strokes {
-
-  }
-</style>

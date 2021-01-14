@@ -7,7 +7,9 @@
         <the-sidebar/>
       </div>
       <div class="column">
-        <router-view/>
+        <div class="content">
+          <router-view/>
+        </div>
       </div>
     </div>
   </div>
@@ -15,10 +17,31 @@
 
 <style>
   html {
-    filter: invert(100%) hue-rotate(180deg);;
+    filter: invert(100%) hue-rotate(180deg);
+  }
+
+  img {
+    filter: invert(100%) hue-rotate(180deg);
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+
+  .menu .router-link-active {
+    color: cyan !important;
+    background: #fff;
+  }
+
+  li {
+    list-style: none;
   }
 
   #app {
+    font-size: 20px;
     background: white;
     height: 100vh;
     font-family: Avenir, Helvetica, Arial, sans-serif;
