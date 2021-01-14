@@ -8,7 +8,7 @@
       <b-menu-item to="/autoimport" tag="router-link" label="5. Auto import"/>
       <b-menu-item to="/history" tag="router-link" label="6. Show history"/>
       <b-menu-item to="/folding" tag="router-link" label="7. Folding"/>
-      <b-menu-item to="/extract" tag="router-link" label="8. Extract Vue components"/>
+      <b-menu-item to="/extract" tag="router-link" label="8. Extract Vue component"/>
       <b-menu-item to="/todo" tag="router-link" label="9. Todo"/>
       <b-menu-item to="/keystrokes" tag="router-link" label="10. Keystrokes"/>
       <b-menu-item to="/catgif" tag="router-link" label="Bonus Cat GIF"/>
