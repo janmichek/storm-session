@@ -1,26 +1,39 @@
 <template>
-  <div class="extract-vue-component"></div>
+  <div class="search-bar">
+
+    <div class="search-input">
+      <input v-model="searchString" type="text">
+    </div>
+
+    <div class="search-button">
+      <button @click="search()">search it</button>
+    </div>
+
+  </div>
 </template>
 
 <script>
   export default {
     name: 'ExtractVueComponent',
-    props: {
-      propName: {
-        type: Boolean,
-        required: true,
-      },
+    methods: {
+      search() {
+        return
+      }
     },
     data () {
       return {
-        valueName: '',
+        searchString: '',
       }
     },
   }
 </script>
 
 <style scoped>
-  .extract-vue-component {
-
+  .search-bar {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-input {
+    height: 20px;
   }
 </style>

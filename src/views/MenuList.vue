@@ -1,22 +1,10 @@
 <template>
-  <div class="plugins">
-
-    <ul>
-      <li>Rainbow Brackets</li>
-    </ul>
-    <ul>
-      <li>Toolbox</li>
-    </ul>
-    <ul>
-      <li>vue </li>
-    </ul>
-
-  </div>
+  <div class="menu-list"></div>
 </template>
 
 <script>
   export default {
-    name: 'Plugins',
+    name: 'MenuList',
     props: {
       propName: {
         type: Boolean,
@@ -32,7 +20,7 @@
 </script>
 
 <style scoped>
-  .plugins {
+  .menu-list {
 
   }
 </style>

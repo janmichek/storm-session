@@ -1,5 +1,8 @@
 <template>
-  <div class="layout"></div>
+  <div class="layout">
+    <ul></ul>
+
+  </div>
 </template>
 
 <script>

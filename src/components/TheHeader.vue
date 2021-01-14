@@ -2,7 +2,7 @@
   <b-navbar>
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        Strom Session
+        Storm Session
       </b-navbar-item>
     </template>
   </b-navbar>

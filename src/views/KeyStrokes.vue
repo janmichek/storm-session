@@ -1,5 +1,15 @@
 <template>
-  <div class="key-strokes"></div>
+  <div class="key-strokes">
+    <ul>
+      <li>
+        CTRL + SHIFT + L
+      </li>
+      <li>
+        Mouse 4 + Mouse 5
+      </li>
+      <li>CTRL + Scroll</li>
+    </ul>
+  </div>
 </template>
 
 <script>

@@ -1,5 +1,7 @@
 <template>
-  <div class="history"></div>
+  <div class="history">
+    It suck when it
+  </div>
 </template>
 
 <script>
@@ -18,6 +20,7 @@
     },
   }
 </script>
+
 
 <style scoped>
   .history {
