@@ -1,9 +1,9 @@
 <template>
   <div>
     <ul>
-      <li>There is no such thing as over-componentization</li>
-      <li>Its painful to split big file into components</li>
-      <li>This feature will do manual work</li>
+      <li>🗲 There is no such thing as over-componentization</li>
+      <li>🗲 Its painful to split big file into components</li>
+      <li>🗲 This feature will do manual work</li>
     </ul>
 
     <div class="search-bar">
